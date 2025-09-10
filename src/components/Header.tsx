@@ -220,7 +220,7 @@ export default function Header() {
                 {user ? (
                   <DropdownMenu>
                     <DropdownMenuTrigger asChild>
-                      <Button variant="ghost" size="sm" className="flex items-center gap-2">
+                      <Button variant="ghost" size="sm" className="flex items-center gap-2 bg-white hover:bg-gray-100 text-black">
                         <User className="h-4 w-4" />
                         <span className="hidden md:inline">{user.contactName}</span>
                         {/* Show loyalty tier badge */}
